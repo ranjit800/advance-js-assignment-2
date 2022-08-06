@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+    align-items: center;
+
+}
+h1{
+    font-style: italic;
+    font-size: 40px;
+
+}
+
+.main{
+    padding-top: 115px;
+
+}
+ table{
+    border: 8px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 4, 255);
+ }
+#black{
+ color: white;
+ background-color: black;
+ font-size: 35px;
+ border-radius: 8px;
+ text-align: end;
+ height: 50px;
+ width: 405px;
+}
+ button{
+    background-color: black;
+    height: 60px;
+    width: 80px;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    
+ }
+ .AC{
+    width: 205px;
+    background-color: red;
+    color: white;
+ }
+ .equal{
+    height: 123px;
+    width: 100%;
+    background-color: aqua;
+ }
+
+ .z{
+    background-color: grey;
+   width: 205px;
+
+ }
+.number{
+    background-color: gray;
+width: 100px;
+}
+
+.ope{
+    background-color: brown;
+    width: 100px;
+
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="problem1.css">
+</head>
+
+<body>
+  <center>
+    <div class="main">
+      <h1>basic Calculator</h1>
+      <table>
+
+
+        <tr>
+          <td colspan="4"><input type="text" id="black" name="screen"></td>
+        </tr>
+
+
+
+        <tr>
+          <td colspan="2"> <button class="AC" onclick="Ac()" value="Ac">AC</button></td>
+          <td>
+            <button class="ope" onclick="valueButton(value)" value="/">/</button>
+          </td>
+          <td>
+            <button class="ope" onclick="valueButton(value)" value="*">*</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <button class="number" onclick="valueButton(value)" value="7">7</button>
+          </td>
+          <td> <button class="number" onclick="valueButton(value)" value="8">8</button>
+          </td>
+          <td> <button class="number" onclick="valueButton(value)" value="9">9</button>
+          </td>
+          <td> <button class="ope" onclick="valueButton(value)" value="-">-</button>
+          </td>
+        </tr>
+
+
+
+        <tr>
+          <td>
+            <button class="number" onclick="valueButton(value)" value="4">4</button>
+          </td>
+          <td> <button class="number" onclick="valueButton(value)" value="5">5</button></td>
+          <td> <button class="number" onclick="valueButton(value)" value="6">6</button></td>
+          <td> <button class="ope" onclick="valueButton(value)" value="+"> +</button>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td> <button class="number" onclick="valueButton(value)" value="1">1</button></td>
+          <td>
+            <button class="number" onclick="valueButton(value)" value="2">2</button>
+          </td>
+          <td>
+            <button class="number" onclick="valueButton(value)" value="3">3</button>
+          </td>
+          <td rowspan="2"> <button class="ope equal" onclick="calculate(value)" value="=">=</button>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td colspan="2"> <button class="z" onclick="valueButton(value)" value="0">0</button>
+          </td>
+          <td> <button class="number" onclick="valueButton(value)" value=".">.</button>
+          </td>
+        </tr>
+
+
+    </div>
+    </table>
+  </center>
+  <script src="problem1.js.js"></script>
+
+</body>
+
+</html>

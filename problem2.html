@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculetor</title>
+  <link rel="stylesheet" href="problem2.css">
+</head>
+
+<body>
+  <div class="container">
+    <h3>Tip Calculetor</h3>
+    <div calss="inp">
+      <span class="bg">$</span>
+      <input type="number" id="num" placeholder="Enter Amount">
+    </div>
+    <div class="inp">
+      <label for="">Tip</label>
+      <input type="range" name="range" id="range" mi="0" max="100" value="0" step="1">
+      <span class="ran"></span>
+    </div>
+    <h3>Result</h3>
+    <div class="inp">
+      <div class="tip">
+        <span class="border">Tip Amount :</span>
+        <span class="tipamt"></span>
+      </div>
+      <br>
+      <div class="amt">
+        <span class="amt">Total Bill :</span>
+        <span class="bill"></span>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <script src="problem2.js"></script>
+</body>
+
+</html>
